@@ -8,15 +8,8 @@
       <Scope>BroadcastParams</Scope>
     </TokenIdentifier>
     <Path>interface_broadcast_params.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>BundleUtil</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>BundleUtil</Scope>
-    </TokenIdentifier>
-    <Path>interface_bundle_util.html</Path>
+    <Abstract>Parameters to use when querying for VVCMSBroadcast. </Abstract>
+    <DeclaredIn>VVCMSBroadcast.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26,6 +19,8 @@
       <Scope>ClipParams</Scope>
     </TokenIdentifier>
     <Path>interface_clip_params.html</Path>
+    <Abstract>Parameters to use when querying for VVCMSClip. </Abstract>
+    <DeclaredIn>VVCMSClip.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -35,6 +30,8 @@
       <Scope>SectionParams</Scope>
     </TokenIdentifier>
     <Path>interface_section_params.html</Path>
+    <Abstract>Parameters to use when querying for VVCMSSection. </Abstract>
+    <DeclaredIn>VVCMSSection.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -44,6 +41,8 @@
       <Scope>SiteParams</Scope>
     </TokenIdentifier>
     <Path>interface_site_params.html</Path>
+    <Abstract>Parameters to use when querying for VVCMSSite. </Abstract>
+    <DeclaredIn>VVCMSSite.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -218,6 +217,8 @@
       <Scope>VVCMSBroadcast</Scope>
     </TokenIdentifier>
     <Path>interface_v_v_c_m_s_broadcast.html</Path>
+    <Abstract>A wrapper for a broadcast returned from VVCMSAPI. </Abstract>
+    <DeclaredIn>VVCMSBroadcast.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -367,6 +368,8 @@
       <Scope>VVCMSClip</Scope>
     </TokenIdentifier>
     <Path>interface_v_v_c_m_s_clip.html</Path>
+    <Abstract>A wrapper for a clip returned from VVCMSAPI. </Abstract>
+    <DeclaredIn>VVCMSClip.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -476,6 +479,8 @@
       <Scope>VVCMSSection</Scope>
     </TokenIdentifier>
     <Path>interface_v_v_c_m_s_section.html</Path>
+    <Abstract>A wrapper for a section returned from VVCMSAPI. </Abstract>
+    <DeclaredIn>VVCMSSection.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -505,6 +510,8 @@
       <Scope>VVCMSSite</Scope>
     </TokenIdentifier>
     <Path>interface_v_v_c_m_s_site.html</Path>
+    <Abstract>A wrapper for a site returned from VVCMSAPI. </Abstract>
+    <DeclaredIn>VVCMSSite.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -544,6 +551,7 @@
       <Scope>VVMoviePlayerController</Scope>
     </TokenIdentifier>
     <Path>interface_v_v_movie_player_controller.html</Path>
+    <Abstract>A VolarVideo media player. </Abstract>
     <DeclaredIn>VVMoviePlayerController.h</DeclaredIn>
   </Token>
   <Token>
@@ -905,6 +913,7 @@
       <Scope>VVMoviePlayerViewController</Scope>
     </TokenIdentifier>
     <Path>interface_v_v_movie_player_view_controller.html</Path>
+    <Abstract>Default view controller that wraps a VVMoviePlayerController. </Abstract>
     <DeclaredIn>VVMoviePlayerViewController.h</DeclaredIn>
   </Token>
   <Token>
@@ -958,5 +967,7 @@
       <Scope>VVPlayerView</Scope>
     </TokenIdentifier>
     <Path>interface_v_v_player_view.html</Path>
+    <Abstract>View used internally for VVMoviePlayerController. </Abstract>
+    <DeclaredIn>VVPlayerView.h</DeclaredIn>
   </Token>
 </Tokens>

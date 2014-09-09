@@ -92,76 +92,76 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#import &lt;Foundation/Foundation.h&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="interface_clip_params.html">   11</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_clip_params.html">ClipParams</a> : NSObject</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;-(NSString*) applyParams:(NSString*)url;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSString *sites;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSString *title;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSNumber *ID;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSNumber *sectionID;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSDate *after;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSDate *before;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSNumber *page;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSNumber *resultsPerPage;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSString *sortBy;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSString *sortDir;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">@end</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#define kKeyID                    @&quot;id&quot;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#define kKeyTitle                 @&quot;title&quot;</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#define kKeyDescription           @&quot;description&quot;</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#define kKeyEmbedURL              @&quot;vmap&quot;</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#define kKeyVMAPURL               @&quot;vmap&quot;</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#define kKeyThumbURL              @&quot;thumbnail&quot;</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#define kKeyBroadcastEditDate     @&quot;edit_date&quot;</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#define kKeyBroadcastRating       @&quot;rating&quot;</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#define kKeyBroadcastAudioOnly    @&quot;audioOnly&quot;</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#define kKeyBroadcastAuthorDict   @&quot;author&quot;</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#define kKeyAuthorDictName        @&quot;full_name&quot;</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html">   40</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_v_v_c_m_s_clip.html">VVCMSClip</a> : NSObject</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;-(id) initWithDictionary:(NSDictionary*)dict;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#afcee764bace231e15e75405344f4295e">   45</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSNumber *<a class="code" href="interface_v_v_c_m_s_clip.html#afcee764bace231e15e75405344f4295e">ID</a>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a970e7df195dcb6da6063544d7b041038">   48</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSString *<a class="code" href="interface_v_v_c_m_s_clip.html#a970e7df195dcb6da6063544d7b041038">title</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="interface_clip_params.html">   14</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_clip_params.html">ClipParams</a> : NSObject</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;-(NSString*) applyParams:(NSString*)url;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSString *sites;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSString *title;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSNumber *ID;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSNumber *sectionID;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSDate *after;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSDate *before;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSNumber *page;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSNumber *resultsPerPage;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSString *sortBy;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">@property</span>(nonatomic,readwrite,strong) NSString *sortDir;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#define kKeyID                    @&quot;id&quot;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#define kKeyTitle                 @&quot;title&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#define kKeyDescription           @&quot;description&quot;</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#define kKeyEmbedURL              @&quot;vmap&quot;</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#define kKeyVMAPURL               @&quot;vmap&quot;</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#define kKeyThumbURL              @&quot;thumbnail&quot;</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#define kKeyBroadcastEditDate     @&quot;edit_date&quot;</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#define kKeyBroadcastRating       @&quot;rating&quot;</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#define kKeyBroadcastAudioOnly    @&quot;audioOnly&quot;</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#define kKeyBroadcastAuthorDict   @&quot;author&quot;</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#define kKeyAuthorDictName        @&quot;full_name&quot;</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html">   46</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_v_v_c_m_s_clip.html">VVCMSClip</a> : NSObject</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;-(id) initWithDictionary:(NSDictionary*)dict;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a415c830e8b2530a5aedc18d6c43aa6ae">   51</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSString *<a class="code" href="interface_v_v_c_m_s_clip.html#a415c830e8b2530a5aedc18d6c43aa6ae">description</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#afcee764bace231e15e75405344f4295e">   51</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSNumber *<a class="code" href="interface_v_v_c_m_s_clip.html#afcee764bace231e15e75405344f4295e">ID</a>;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a7698c91ecc9eafcf6af24f1fd592beb0">   54</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSString *<a class="code" href="interface_v_v_c_m_s_clip.html#a7698c91ecc9eafcf6af24f1fd592beb0">thumbnailURL</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a970e7df195dcb6da6063544d7b041038">   54</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSString *<a class="code" href="interface_v_v_c_m_s_clip.html#a970e7df195dcb6da6063544d7b041038">title</a>;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a3c7f32ef7ff64ff81b82b017cb0c3757">   57</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSDate *<a class="code" href="interface_v_v_c_m_s_clip.html#a3c7f32ef7ff64ff81b82b017cb0c3757">editDate</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a415c830e8b2530a5aedc18d6c43aa6ae">   57</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSString *<a class="code" href="interface_v_v_c_m_s_clip.html#a415c830e8b2530a5aedc18d6c43aa6ae">description</a>;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a60219ecbe141c8937476afec0372d7e1">   65</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,assign) <span class="keywordtype">double</span> <a class="code" href="interface_v_v_c_m_s_clip.html#a60219ecbe141c8937476afec0372d7e1">rating</a>;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#ad666bd736319e9c6e5b8122c184cf533">   68</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,assign) BOOL <a class="code" href="interface_v_v_c_m_s_clip.html#ad666bd736319e9c6e5b8122c184cf533">audioOnly</a>;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a1990299859bf1d8c417fa94280700d1c">   71</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSString *<a class="code" href="interface_v_v_c_m_s_clip.html#a1990299859bf1d8c417fa94280700d1c">authorName</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a7698c91ecc9eafcf6af24f1fd592beb0">   60</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSString *<a class="code" href="interface_v_v_c_m_s_clip.html#a7698c91ecc9eafcf6af24f1fd592beb0">thumbnailURL</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a3c7f32ef7ff64ff81b82b017cb0c3757">   63</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSDate *<a class="code" href="interface_v_v_c_m_s_clip.html#a3c7f32ef7ff64ff81b82b017cb0c3757">editDate</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a60219ecbe141c8937476afec0372d7e1">   71</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,assign) <span class="keywordtype">double</span> <a class="code" href="interface_v_v_c_m_s_clip.html#a60219ecbe141c8937476afec0372d7e1">rating</a>;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a7ba09a569e44cb3addb520c28b73fdf6">   74</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSString *<a class="code" href="interface_v_v_c_m_s_clip.html#a7ba09a569e44cb3addb520c28b73fdf6">embedURL</a>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#ad666bd736319e9c6e5b8122c184cf533">   74</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,assign) BOOL <a class="code" href="interface_v_v_c_m_s_clip.html#ad666bd736319e9c6e5b8122c184cf533">audioOnly</a>;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a0ad501a92a985fab874b76ced4fe9428">   79</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSString *<a class="code" href="interface_v_v_c_m_s_clip.html#a0ad501a92a985fab874b76ced4fe9428">vmapURL</a>;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">@end</span></div>
-<div class="ttc" id="interface_v_v_c_m_s_clip_html_a970e7df195dcb6da6063544d7b041038"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a970e7df195dcb6da6063544d7b041038">VVCMSClip::title</a></div><div class="ttdeci">NSString * title</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:48</div></div>
-<div class="ttc" id="interface_v_v_c_m_s_clip_html_ad666bd736319e9c6e5b8122c184cf533"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#ad666bd736319e9c6e5b8122c184cf533">VVCMSClip::audioOnly</a></div><div class="ttdeci">BOOL audioOnly</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:68</div></div>
-<div class="ttc" id="interface_v_v_c_m_s_clip_html_a415c830e8b2530a5aedc18d6c43aa6ae"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a415c830e8b2530a5aedc18d6c43aa6ae">VVCMSClip::description</a></div><div class="ttdeci">NSString * description</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:51</div></div>
-<div class="ttc" id="interface_v_v_c_m_s_clip_html_a0ad501a92a985fab874b76ced4fe9428"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a0ad501a92a985fab874b76ced4fe9428">VVCMSClip::vmapURL</a></div><div class="ttdeci">NSString * vmapURL</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:79</div></div>
-<div class="ttc" id="interface_v_v_c_m_s_clip_html_a1990299859bf1d8c417fa94280700d1c"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a1990299859bf1d8c417fa94280700d1c">VVCMSClip::authorName</a></div><div class="ttdeci">NSString * authorName</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:71</div></div>
-<div class="ttc" id="interface_v_v_c_m_s_clip_html_a7ba09a569e44cb3addb520c28b73fdf6"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a7ba09a569e44cb3addb520c28b73fdf6">VVCMSClip::embedURL</a></div><div class="ttdeci">NSString * embedURL</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:74</div></div>
-<div class="ttc" id="interface_v_v_c_m_s_clip_html_a7698c91ecc9eafcf6af24f1fd592beb0"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a7698c91ecc9eafcf6af24f1fd592beb0">VVCMSClip::thumbnailURL</a></div><div class="ttdeci">NSString * thumbnailURL</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:54</div></div>
-<div class="ttc" id="interface_v_v_c_m_s_clip_html_a3c7f32ef7ff64ff81b82b017cb0c3757"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a3c7f32ef7ff64ff81b82b017cb0c3757">VVCMSClip::editDate</a></div><div class="ttdeci">NSDate * editDate</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:57</div></div>
-<div class="ttc" id="interface_v_v_c_m_s_clip_html_afcee764bace231e15e75405344f4295e"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#afcee764bace231e15e75405344f4295e">VVCMSClip::ID</a></div><div class="ttdeci">NSNumber * ID</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:45</div></div>
-<div class="ttc" id="interface_v_v_c_m_s_clip_html"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html">VVCMSClip</a></div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:40</div></div>
-<div class="ttc" id="interface_v_v_c_m_s_clip_html_a60219ecbe141c8937476afec0372d7e1"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a60219ecbe141c8937476afec0372d7e1">VVCMSClip::rating</a></div><div class="ttdeci">double rating</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:65</div></div>
-<div class="ttc" id="interface_clip_params_html"><div class="ttname"><a href="interface_clip_params.html">ClipParams</a></div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:11</div></div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a1990299859bf1d8c417fa94280700d1c">   77</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSString *<a class="code" href="interface_v_v_c_m_s_clip.html#a1990299859bf1d8c417fa94280700d1c">authorName</a>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a7ba09a569e44cb3addb520c28b73fdf6">   80</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSString *<a class="code" href="interface_v_v_c_m_s_clip.html#a7ba09a569e44cb3addb520c28b73fdf6">embedURL</a>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="interface_v_v_c_m_s_clip.html#a0ad501a92a985fab874b76ced4fe9428">   85</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly,strong) NSString *<a class="code" href="interface_v_v_c_m_s_clip.html#a0ad501a92a985fab874b76ced4fe9428">vmapURL</a>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keyword">@end</span></div>
+<div class="ttc" id="interface_v_v_c_m_s_clip_html_a970e7df195dcb6da6063544d7b041038"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a970e7df195dcb6da6063544d7b041038">VVCMSClip::title</a></div><div class="ttdeci">NSString * title</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:54</div></div>
+<div class="ttc" id="interface_v_v_c_m_s_clip_html_ad666bd736319e9c6e5b8122c184cf533"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#ad666bd736319e9c6e5b8122c184cf533">VVCMSClip::audioOnly</a></div><div class="ttdeci">BOOL audioOnly</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:74</div></div>
+<div class="ttc" id="interface_v_v_c_m_s_clip_html_a415c830e8b2530a5aedc18d6c43aa6ae"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a415c830e8b2530a5aedc18d6c43aa6ae">VVCMSClip::description</a></div><div class="ttdeci">NSString * description</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:57</div></div>
+<div class="ttc" id="interface_v_v_c_m_s_clip_html_a0ad501a92a985fab874b76ced4fe9428"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a0ad501a92a985fab874b76ced4fe9428">VVCMSClip::vmapURL</a></div><div class="ttdeci">NSString * vmapURL</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:85</div></div>
+<div class="ttc" id="interface_v_v_c_m_s_clip_html_a1990299859bf1d8c417fa94280700d1c"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a1990299859bf1d8c417fa94280700d1c">VVCMSClip::authorName</a></div><div class="ttdeci">NSString * authorName</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:77</div></div>
+<div class="ttc" id="interface_v_v_c_m_s_clip_html_a7ba09a569e44cb3addb520c28b73fdf6"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a7ba09a569e44cb3addb520c28b73fdf6">VVCMSClip::embedURL</a></div><div class="ttdeci">NSString * embedURL</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:80</div></div>
+<div class="ttc" id="interface_v_v_c_m_s_clip_html_a7698c91ecc9eafcf6af24f1fd592beb0"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a7698c91ecc9eafcf6af24f1fd592beb0">VVCMSClip::thumbnailURL</a></div><div class="ttdeci">NSString * thumbnailURL</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:60</div></div>
+<div class="ttc" id="interface_v_v_c_m_s_clip_html_a3c7f32ef7ff64ff81b82b017cb0c3757"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a3c7f32ef7ff64ff81b82b017cb0c3757">VVCMSClip::editDate</a></div><div class="ttdeci">NSDate * editDate</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:63</div></div>
+<div class="ttc" id="interface_v_v_c_m_s_clip_html_afcee764bace231e15e75405344f4295e"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#afcee764bace231e15e75405344f4295e">VVCMSClip::ID</a></div><div class="ttdeci">NSNumber * ID</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:51</div></div>
+<div class="ttc" id="interface_v_v_c_m_s_clip_html"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html">VVCMSClip</a></div><div class="ttdoc">A wrapper for a clip returned from VVCMSAPI. </div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:46</div></div>
+<div class="ttc" id="interface_v_v_c_m_s_clip_html_a60219ecbe141c8937476afec0372d7e1"><div class="ttname"><a href="interface_v_v_c_m_s_clip.html#a60219ecbe141c8937476afec0372d7e1">VVCMSClip::rating</a></div><div class="ttdeci">double rating</div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:71</div></div>
+<div class="ttc" id="interface_clip_params_html"><div class="ttname"><a href="interface_clip_params.html">ClipParams</a></div><div class="ttdoc">Parameters to use when querying for VVCMSClip. </div><div class="ttdef"><b>Definition:</b> VVCMSClip.h:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 6 2014 15:57:46 for VolarVideo iOS Mobile SDK (Beta) by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 9 2014 15:05:11 for VolarVideo iOS Mobile SDK (Beta) by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

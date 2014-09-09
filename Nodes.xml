@@ -80,12 +80,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>BundleUtil</Name>
-            <Path>interface_bundle_util.html</Path>
-            <Subnodes>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>ClipParams</Name>
             <Path>interface_clip_params.html</Path>
             <Subnodes>
