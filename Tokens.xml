@@ -232,6 +232,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sectionID</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>VVCMSBroadcast</Scope>
+    </TokenIdentifier>
+    <Path>interface_v_v_c_m_s_broadcast.html</Path>
+    <Anchor>a3f5f74cdbf1ef1206963ed8a3d52e480</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>title</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -768,6 +778,28 @@
     </TokenIdentifier>
     <Path>interface_v_v_movie_player_controller.html</Path>
     <Anchor>aed70ff2700a055babe3d4252628d6367</Anchor>
+    <DeclaredIn>VVMoviePlayerController.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setScaledButtonHidden:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>VVMoviePlayerController</Scope>
+    </TokenIdentifier>
+    <Path>interface_v_v_movie_player_controller.html</Path>
+    <Anchor>a51b9eaa62e4c7faaae2c962edc23a740</Anchor>
+    <DeclaredIn>VVMoviePlayerController.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isScaledButtonHidden</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>VVMoviePlayerController</Scope>
+    </TokenIdentifier>
+    <Path>interface_v_v_movie_player_controller.html</Path>
+    <Anchor>a3d9da8bd02355ccb14c4a65c25b6ac79</Anchor>
     <DeclaredIn>VVMoviePlayerController.h</DeclaredIn>
   </Token>
   <Token>

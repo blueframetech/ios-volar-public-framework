@@ -124,55 +124,55 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00219"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#a32a23d4c1cc9c3ce43a1983923c0ba47">  219</a></span>&#160;<span class="keyword">@property</span>(nonatomic) MPMovieScalingMode scalingMode;</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
-<div class="line"><a name="l00237"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#a5fd9909e1e4435a09b378fd7297d857c">  237</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readonly) NSTimeInterval duration;</div>
-<div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#ae0727bdea4e384da5b3b369a54f32b38">  246</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readonly) NSTimeInterval playableDuration;</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
-<div class="line"><a name="l00263"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#aa01ab413359bd9bd98fae9e5e4ca2919">  263</a></span>&#160;<span class="keyword">@property</span>(nonatomic, readonly) IBOutlet UIView *backgroundView;</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;</div>
-<div class="line"><a name="l00280"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#aef6d5cb6e7942a8d43b4879f2e3d9104">  280</a></span>&#160;<span class="keyword">@property</span> (nonatomic) NSTimeInterval endPlaybackTime;</div>
-<div class="line"><a name="l00291"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#a64f905aaf31a6ecc5d2b16903c0420d4">  291</a></span>&#160;<span class="keyword">@property</span> (nonatomic) NSTimeInterval initialPlaybackTime;</div>
-<div class="line"><a name="l00300"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#a772e58b0c811e6ac1d5a4ea2af373758">  300</a></span>&#160;<span class="keyword">@property</span>(nonatomic, readonly) MPMovieLoadState loadState;</div>
-<div class="line"><a name="l00311"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#a690bfb5bdc0a9da79b8624e1a646a17f">  311</a></span>&#160;<span class="keyword">@property</span>(nonatomic, readonly) MPMoviePlaybackState playbackState;</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="keyword">@property</span>(nonatomic, readonly) BOOL readyForDisplay NS_AVAILABLE_IOS(6_0);</div>
-<div class="line"><a name="l00329"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#aeb9c687d2e7501f3be0a031e6aa384b9">  329</a></span>&#160;<span class="keyword">@property</span>(nonatomic) MPMovieRepeatMode repeatMode;</div>
-<div class="line"><a name="l00338"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#a3572d6a5502fa40b9ac796c690f60110">  338</a></span>&#160;<span class="keyword">@property</span>(nonatomic) BOOL shouldAutoplay;</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;- (NSArray *)timedMetadata;</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;- (void)cancelAllThumbnailImageRequests;</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;- (void)requestThumbnailImagesAtTimes:(NSArray *)playbackTimes timeOption:(MPMovieTimeOption)option;</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;- (UIImage *)thumbnailImageAtTime:(NSTimeInterval)playbackTime timeOption:(MPMovieTimeOption)option;</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;</div>
-<div class="line"><a name="l00408"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#ad53acac257dfb7becac5f7ed3f229f75">  408</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly) MPMovieAccessLog *accessLog;</div>
-<div class="line"><a name="l00417"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#aff12f2621832a7793b9ac337ddd1c305">  417</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readonly) MPMovieErrorLog *errorLog;</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;</div>
-<div class="line"><a name="l00434"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#a605abcad9c038fdeb09eb4c525bba071">  434</a></span>&#160;<span class="keyword">@property</span>(nonatomic, strong) IBOutlet UILabel *messageLabel;</div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;-(void) displayMessage:(NSString*)message;</div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;-(void) hideMessages;</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;-(void) parentViewDidLoad:(<span class="keywordtype">id</span>) pvc;</div>
-<div class="line"><a name="l00466"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#ac636326afbbefd516e65683ce73ec4f7">  466</a></span>&#160;<span class="keyword">@property</span>(nonatomic,strong) IBOutlet UILabel *lblCount;</div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;</div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;-(void) setScaledButtonHidden:(BOOL)hidden;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;-(BOOL) isScaledButtonHidden;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
+<div class="line"><a name="l00243"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#a5fd9909e1e4435a09b378fd7297d857c">  243</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readonly) NSTimeInterval duration;</div>
+<div class="line"><a name="l00252"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#ae0727bdea4e384da5b3b369a54f32b38">  252</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readonly) NSTimeInterval playableDuration;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;</div>
+<div class="line"><a name="l00269"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#aa01ab413359bd9bd98fae9e5e4ca2919">  269</a></span>&#160;<span class="keyword">@property</span>(nonatomic, readonly) IBOutlet UIView *backgroundView;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
+<div class="line"><a name="l00286"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#aef6d5cb6e7942a8d43b4879f2e3d9104">  286</a></span>&#160;<span class="keyword">@property</span> (nonatomic) NSTimeInterval endPlaybackTime;</div>
+<div class="line"><a name="l00297"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#a64f905aaf31a6ecc5d2b16903c0420d4">  297</a></span>&#160;<span class="keyword">@property</span> (nonatomic) NSTimeInterval initialPlaybackTime;</div>
+<div class="line"><a name="l00306"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#a772e58b0c811e6ac1d5a4ea2af373758">  306</a></span>&#160;<span class="keyword">@property</span>(nonatomic, readonly) MPMovieLoadState loadState;</div>
+<div class="line"><a name="l00317"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#a690bfb5bdc0a9da79b8624e1a646a17f">  317</a></span>&#160;<span class="keyword">@property</span>(nonatomic, readonly) MPMoviePlaybackState playbackState;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="keyword">@property</span>(nonatomic, readonly) BOOL readyForDisplay NS_AVAILABLE_IOS(6_0);</div>
+<div class="line"><a name="l00335"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#aeb9c687d2e7501f3be0a031e6aa384b9">  335</a></span>&#160;<span class="keyword">@property</span>(nonatomic) MPMovieRepeatMode repeatMode;</div>
+<div class="line"><a name="l00344"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#a3572d6a5502fa40b9ac796c690f60110">  344</a></span>&#160;<span class="keyword">@property</span>(nonatomic) BOOL shouldAutoplay;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;- (NSArray *)timedMetadata;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;- (void)cancelAllThumbnailImageRequests;</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;- (void)requestThumbnailImagesAtTimes:(NSArray *)playbackTimes timeOption:(MPMovieTimeOption)option;</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;- (UIImage *)thumbnailImageAtTime:(NSTimeInterval)playbackTime timeOption:(MPMovieTimeOption)option;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;</div>
+<div class="line"><a name="l00414"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#ad53acac257dfb7becac5f7ed3f229f75">  414</a></span>&#160;<span class="keyword">@property</span>(nonatomic,readonly) MPMovieAccessLog *accessLog;</div>
+<div class="line"><a name="l00423"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#aff12f2621832a7793b9ac337ddd1c305">  423</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readonly) MPMovieErrorLog *errorLog;</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;</div>
+<div class="line"><a name="l00440"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#a605abcad9c038fdeb09eb4c525bba071">  440</a></span>&#160;<span class="keyword">@property</span>(nonatomic, strong) IBOutlet UILabel *messageLabel;</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;-(void) displayMessage:(NSString*)message;</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;-(void) hideMessages;</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;-(void) parentViewDidLoad:(<span class="keywordtype">id</span>) pvc;</div>
+<div class="line"><a name="l00472"></a><span class="lineno"><a class="line" href="interface_v_v_movie_player_controller.html#ac636326afbbefd516e65683ce73ec4f7">  472</a></span>&#160;<span class="keyword">@property</span>(nonatomic,strong) IBOutlet UILabel *lblCount;</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;<span class="keyword">@end</span></div>
 <div class="ttc" id="interface_v_v_movie_player_view_controller_html"><div class="ttname"><a href="interface_v_v_movie_player_view_controller.html">VVMoviePlayerViewController</a></div><div class="ttdoc">Default view controller that wraps a VVMoviePlayerController. </div><div class="ttdef"><b>Definition:</b> VVMoviePlayerViewController.h:22</div></div>
 <div class="ttc" id="interface_v_v_c_m_s_a_p_i_html"><div class="ttname"><a href="interface_v_v_c_m_s_a_p_i.html">VVCMSAPI</a></div><div class="ttdoc">VVCMSAPI is used to query video records managed by a VolarVideo CMS. </div><div class="ttdef"><b>Definition:</b> VVCMSAPI.h:93</div></div>
 <div class="ttc" id="interface_v_v_player_view_html"><div class="ttname"><a href="interface_v_v_player_view.html">VVPlayerView</a></div><div class="ttdoc">View used internally for VVMoviePlayerController. </div><div class="ttdef"><b>Definition:</b> VVPlayerView.h:17</div></div>
@@ -180,7 +180,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 9 2014 15:05:11 for VolarVideo iOS Mobile SDK (Beta) by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 10:00:49 for VolarVideo iOS Mobile SDK (Beta) by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
