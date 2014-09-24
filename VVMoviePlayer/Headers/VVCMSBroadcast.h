@@ -49,6 +49,7 @@ typedef NS_ENUM(NSInteger, VVCMSBroadcastStatus) {
 #define kKeyBroadcastStatusTesting    @"testing"
 #define kKeyBroadcastStatusArchived   @"archived"
 #define kKeyBroadcastID               @"id"
+#define kKeyBroadcastSection          @"section"
 #define kKeyBroadcastTitle            @"title"
 #define kKeyBroadcastDescr            @"description"
 #define kKeyBroadcastURL              @"vmap"
@@ -72,6 +73,9 @@ typedef NS_ENUM(NSInteger, VVCMSBroadcastStatus) {
 
 /*! VolarVideo broadcast ID number */
 @property(nonatomic,readonly,strong) NSNumber *ID;
+
+/*! VolarVideo broadcast section ID number */
+@property(nonatomic,readonly,strong) NSNumber *sectionID;
 
 /*! Title of broadcast */
 @property(nonatomic,readonly,strong) NSString *title;

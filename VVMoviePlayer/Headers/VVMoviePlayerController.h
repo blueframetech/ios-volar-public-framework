@@ -219,9 +219,15 @@
 @property(nonatomic) MPMovieScalingMode scalingMode;
 
 
+/*!
+ Shows or hides the scale mode button
+ */
+-(void) setScaledButtonHidden:(BOOL)hidden;
 
-
-
+/*!
+ True if the scale button is hidden
+ */
+-(BOOL) isScaledButtonHidden;
 
 /*!
  @name Accessing the Movie Duration
