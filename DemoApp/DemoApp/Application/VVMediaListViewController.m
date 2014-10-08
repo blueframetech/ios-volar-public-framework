@@ -20,7 +20,7 @@
 #import <EventKit/EventKit.h>
 #import "MBProgressHUD.h"
 
-#define API_KEY @"<insert api key>"
+#define API_KEY @"TPIxRWfBZUfkndE6kgrjfZ3BsVitQJSx"
 
 #define kRowHeight 110.0
 #define kNoResultsRowHeight 424.0
