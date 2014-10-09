@@ -1,5 +1,9 @@
+### v2.0.4
+* Fixed linking problems in Xcode 5
+
 ### v2.0.3
 * Added the `armv7s` architecture to the universal binary
+* NOTE: Only works in Xcode 6
 
 ### v2.0.2
 * Fixed problem on iOS 8 where video would play only audio
