@@ -1,3 +1,6 @@
+### v2.0.3
+* Added the `armv7s` architecture to the universal binary
+
 ### v2.0.2
 * Fixed problem on iOS 8 where video would play only audio
 * Fixed miscellaneous ad logic bugs
