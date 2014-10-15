@@ -1,3 +1,8 @@
+### v2.0.5
+* Fixed bug where iOS 8 would end live broadcasts with endless spinner
+* Fixed bug with duration-based prerolls
+* Entering a stopped broadcast properly starts when broadcasts starts
+
 ### v2.0.4
 * Fixed linking problems in Xcode 5
 
