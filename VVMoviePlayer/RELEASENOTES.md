@@ -1,3 +1,7 @@
+### v2.0.6
+* Spinner no longer endlessly spins at the end of a live broadcast
+* Play/pause but is now disabled when there is no active player
+
 ### v2.0.5
 * Fixed bug where iOS 8 would end live broadcasts with endless spinner
 * Fixed bug with duration-based prerolls

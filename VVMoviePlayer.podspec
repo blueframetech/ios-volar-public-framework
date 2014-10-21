@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "VVMoviePlayer"
-  s.version      = "2.0.5"
+  s.version      = "2.0.6"
   s.summary      = "iOS library for playback of VolarVideo.com content"
   s.homepage     = "http://volarvideo.com"
   s.author       = { "VolarVideo, Inc" => "appledev@volarvideo.com" }
   s.platform     = :ios 
-  s.source       = { :git => "https://github.com/volarvideo/ios-volar-public-framework.git", :tag => "v2.0.5" }
+  s.source       = { :git => "https://github.com/volarvideo/ios-volar-public-framework.git", :tag => "v2.0.6" }
   s.source_files =  'VVMoviePlayer/Headers/*.h'
   s.preserve_paths = 'VVMoviePlayer/libVVMoviePlayer.a'
   s.vendored_libraries = 'VVMoviePlayer/libVVMoviePlayer.a'
