@@ -37,7 +37,12 @@ Alternatively, you can install it manually by following these steps:
     ![Example](http://volarvideo.github.io/ios-volar-public-framework/frameworks.png)
 5. Add the following to your Other Linker Flags in the "Build Settings" for your app: `-all_load -ObjC`
 
-### Using the SDK 
+### Configuring your app for GPS on iOS 8
+The SDK needs access to the device's GPS to display content that might be blocked for certain regions of the world.  Starting in iOS 8, it is required to specify some verbage to be displayed when asking the user for permission to access their location.  Unfortunately, the only way to specify it is in your app's `Info.plist` file.  The SDK requests permission to get the device's location when the app is in the foreground.  This *requires* a string value set for the key `NSLocationWhenInUseUsageDescription`.  Additionally, if you would like the same message to be displayed on previous versions of iOS, you can set a string value for the key `NSLocationUsageDescription`.  More information can be found [here](https://developer.apple.com/library/IOs/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW18).  Here's a preferred example:
+
+![Example](http://volarvideo.github.io/ios-volar-public-framework/gps-setup.png)
+
+### Using the SDK
 It's quick and easy to spawn an instance of `VVMoviePlayerViewController`.  Here's an example:
 
 ```objective-c
