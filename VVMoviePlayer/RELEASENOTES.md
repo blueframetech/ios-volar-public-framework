@@ -1,3 +1,10 @@
+### v2.0.8
+* Pusher and its dependencies are bundled with the distributed libVVMoviePlayer.a
+* The control bar now shows/hides in a more user-friendly way
+* Fixed a crash seen on some devices
+* Fixed a case where a preroll ad could be cut short
+* Fixed UI bug during live midrolls
+
 ### v2.0.7
 * Fixed bug with geoblocked broadcasts not loading on iOS 8
   - NOTE: There is a new required key/value that must be set in your app's

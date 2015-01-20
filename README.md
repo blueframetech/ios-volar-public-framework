@@ -33,7 +33,6 @@ Alternatively, you can install it manually by following these steps:
     * UIKit.framework
     * Foundation.framework
     * CoreGraphics.framework
-    * [libPusher-combined.a](https://github.com/lukeredpath/libPusher/downloads)
     ![Example](http://volarvideo.github.io/ios-volar-public-framework/frameworks.png)
 5. Add the following to your Other Linker Flags in the "Build Settings" for your app: `-all_load -ObjC`
 

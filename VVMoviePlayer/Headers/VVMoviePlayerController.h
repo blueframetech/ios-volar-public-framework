@@ -55,7 +55,7 @@
  */
 
 
-@interface VVMoviePlayerController : UIViewController <MPMediaPlayback,VVMoviePlayerDelegate> {
+@interface VVMoviePlayerController : UIViewController <MPMediaPlayback,VVMoviePlayerDelegate,UIGestureRecognizerDelegate> {
 }
 
 /*!
