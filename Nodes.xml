@@ -344,6 +344,11 @@
               <Anchor>aaf20546a2b8144fc16d7ffb3df11cecc</Anchor>
              </Node>
              <Node>
+              <Name>sectionID</Name>
+              <Path>interface_v_v_c_m_s_broadcast.html</Path>
+              <Anchor>a3f5f74cdbf1ef1206963ed8a3d52e480</Anchor>
+             </Node>
+             <Node>
               <Name>startDate</Name>
               <Path>interface_v_v_c_m_s_broadcast.html</Path>
               <Anchor>abfb0a0ff08c241a4d7b308f67847d7f5</Anchor>
@@ -508,6 +513,11 @@
               <Anchor>a6579bb5b24a31656bc49f793c8e45d73</Anchor>
              </Node>
              <Node>
+              <Name>isScaledButtonHidden</Name>
+              <Path>interface_v_v_movie_player_controller.html</Path>
+              <Anchor>a3d9da8bd02355ccb14c4a65c25b6ac79</Anchor>
+             </Node>
+             <Node>
               <Name>NS_AVAILABLE_IOS</Name>
               <Path>interface_v_v_movie_player_controller.html</Path>
               <Anchor>af162aa0161e79fcba3c6ec3cb66410a2</Anchor>
@@ -526,6 +536,11 @@
               <Name>setFullscreen:animated:</Name>
               <Path>interface_v_v_movie_player_controller.html</Path>
               <Anchor>aed70ff2700a055babe3d4252628d6367</Anchor>
+             </Node>
+             <Node>
+              <Name>setScaledButtonHidden:</Name>
+              <Path>interface_v_v_movie_player_controller.html</Path>
+              <Anchor>a51b9eaa62e4c7faaae2c962edc23a740</Anchor>
              </Node>
              <Node>
               <Name>thumbnailImageAtTime:timeOption:</Name>

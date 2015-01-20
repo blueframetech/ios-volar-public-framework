@@ -1,8 +1,10 @@
 var searchData=
 [
   ['scalingmode',['scalingMode',['../interface_v_v_movie_player_controller.html#a32a23d4c1cc9c3ce43a1983923c0ba47',1,'VVMoviePlayerController']]],
+  ['sectionid',['sectionID',['../interface_v_v_c_m_s_broadcast.html#a3f5f74cdbf1ef1206963ed8a3d52e480',1,'VVCMSBroadcast']]],
   ['sectionparams',['SectionParams',['../interface_section_params.html',1,'']]],
   ['setfullscreen_3aanimated_3a',['setFullscreen:animated:',['../interface_v_v_movie_player_controller.html#aed70ff2700a055babe3d4252628d6367',1,'VVMoviePlayerController']]],
+  ['setscaledbuttonhidden_3a',['setScaledButtonHidden:',['../interface_v_v_movie_player_controller.html#a51b9eaa62e4c7faaae2c962edc23a740',1,'VVMoviePlayerController']]],
   ['shouldautoplay',['shouldAutoplay',['../interface_v_v_movie_player_controller.html#a3572d6a5502fa40b9ac796c690f60110',1,'VVMoviePlayerController']]],
   ['shouldautorotatetointerfaceorientation_3a',['shouldAutorotateToInterfaceOrientation:',['../interface_v_v_movie_player_view_controller.html#ada59a64896690dabbd3abe86e5e2e232',1,'VVMoviePlayerViewController']]],
   ['siteparams',['SiteParams',['../interface_site_params.html',1,'']]],
