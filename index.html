@@ -114,6 +114,12 @@ pod 'VVMoviePlayer'
 </li>
 <li>Add the following to your Other Linker Flags in the "Build Settings" for your app: <code>-all_load -ObjC</code></li>
 </ol>
+<p>The above <b>libVVMoviePlayer.a</b> includes <code>libPusher-1.6</code> and its dependencies (<code>SocketRocket</code> and <code>ReactiveCocoa</code>). If you are already using one of these dependencies, you'll need to use <b>libVVMoviePlayer-no-deps.a</b> and link to any missing libraries:</p>
+<ul>
+<li><a href="http://volarvideo.github.io/ios-volar-public-framework/files/libPusher-combined.a">libPusher-combined.a</a></li>
+<li><a href="https://github.com/square/SocketRocket">SocketRocket</a></li>
+<li><a href="https://github.com/ReactiveCocoa/ReactiveCocoa">ReactiveCocoa</a></li>
+</ul>
 <h3>Configuring your app for GPS on iOS 8</h3>
 <p>The SDK needs access to the device's GPS to display content that might be blocked for certain regions of the world. Starting in iOS 8, it is required to specify some verbage to be displayed when asking the user for permission to access their location. Unfortunately, the only way to specify it is in your app's <code>Info.plist</code> file. The SDK requests permission to get the device's location when the app is in the foreground. This <em>requires</em> a string value set for the key <code>NSLocationWhenInUseUsageDescription</code>. Additionally, if you would like the same message to be displayed on previous versions of iOS, you can set a string value for the key <code>NSLocationUsageDescription</code>. More information can be found <a href="https://developer.apple.com/library/IOs/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW18">here</a>. Here's a preferred example:</p>
 <div class="image">
@@ -168,7 +174,7 @@ params.resultsPerPage = [[NSNumber alloc] initWithInt:20];
     </pre> </div> </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 20 2015 14:42:19 for VolarVideo iOS Mobile SDK (Beta) by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 21 2015 10:20:38 for VolarVideo iOS Mobile SDK (Beta) by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
