@@ -36,6 +36,12 @@ Alternatively, you can install it manually by following these steps:
     ![Example](http://volarvideo.github.io/ios-volar-public-framework/frameworks.png)
 5. Add the following to your Other Linker Flags in the "Build Settings" for your app: `-all_load -ObjC`
 
+The above <b>libVVMoviePlayer.a</b> includes `libPusher-1.6` and its dependencies (`SocketRocket` and `ReactiveCocoa`).  If you are already using one of these dependencies, you'll need to use <b>libVVMoviePlayer-no-deps.a</b> and link to any missing libraries:
+
+   * [libPusher-combined.a](http://volarvideo.github.io/ios-volar-public-framework/files/libPusher-combined.a)
+   * [SocketRocket](https://github.com/square/SocketRocket)
+   * [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
+
 ### Configuring your app for GPS on iOS 8
 The SDK needs access to the device's GPS to display content that might be blocked for certain regions of the world.  Starting in iOS 8, it is required to specify some verbage to be displayed when asking the user for permission to access their location.  Unfortunately, the only way to specify it is in your app's `Info.plist` file.  The SDK requests permission to get the device's location when the app is in the foreground.  This *requires* a string value set for the key `NSLocationWhenInUseUsageDescription`.  Additionally, if you would like the same message to be displayed on previous versions of iOS, you can set a string value for the key `NSLocationUsageDescription`.  More information can be found [here](https://developer.apple.com/library/IOs/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW18).  Here's a preferred example:
 
