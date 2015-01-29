@@ -1,3 +1,7 @@
+### v2.0.9
+* Fixed crash seen when starting live broadcasts
+* Fixed UI problems with broadcasts greater than 24 hours in duration
+
 ### v2.0.8
 * Pusher and its dependencies are bundled with the distributed libVVMoviePlayer.a
 * The control bar now shows/hides in a more user-friendly way

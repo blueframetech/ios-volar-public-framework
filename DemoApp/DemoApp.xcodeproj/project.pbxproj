@@ -50,7 +50,6 @@
 		CE842BA319BBB1FD00F138A2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE842BA219BBB1FD00F138A2 /* ImageIO.framework */; };
 		CE842BA519BBB20600F138A2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE842BA419BBB20600F138A2 /* QuartzCore.framework */; };
 		CE842BA719BBB21000F138A2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE842BA619BBB21000F138A2 /* MessageUI.framework */; };
-		CE842BAC19BBB33000F138A2 /* libPusher-combined.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE842BAB19BBB33000F138A2 /* libPusher-combined.a */; };
 		CE842BAF19BBB33A00F138A2 /* PRPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE842BAE19BBB33A00F138A2 /* PRPAlertView.m */; };
 		CE842BC419BBB45F00F138A2 /* B3SearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE842BB219BBB45F00F138A2 /* B3SearchBar.m */; };
 		CE842BC519BBB45F00F138A2 /* VVDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE842BB519BBB45F00F138A2 /* VVDatePickerViewController.m */; };
@@ -338,7 +337,6 @@
 				CE842B9D19BBB1E700F138A2 /* libz.dylib in Frameworks */,
 				CE842B9B19BBB1E100F138A2 /* AVFoundation.framework in Frameworks */,
 				CE842B9919BBB1DD00F138A2 /* CoreMedia.framework in Frameworks */,
-				CE842BAC19BBB33000F138A2 /* libPusher-combined.a in Frameworks */,
 				CE842B9719BBB1D600F138A2 /* EventKit.framework in Frameworks */,
 				CE842B9519BBB1CA00F138A2 /* EventKitUI.framework in Frameworks */,
 				CE842B9319BBB1C200F138A2 /* libxml2.dylib in Frameworks */,
