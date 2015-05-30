@@ -1,3 +1,10 @@
+### v2.1.1
+* Fixed intermittent crash on some ads
+
+### v2.1.0
+* Fixed compile issue for SDK xibs for pre-iOS-8
+* Now providing binaries both with and without dependencies
+
 ### v2.0.9
 * Fixed crash seen when starting live broadcasts
 * Fixed UI problems with broadcasts greater than 24 hours in duration
